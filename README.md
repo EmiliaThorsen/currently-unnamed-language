@@ -54,8 +54,8 @@ loop a < b
 end
 ```
 c style for loops, the initial value is just declared outside the loop, its more readable and a lot easier to implement lol, yet again if the first statment in the loop is a boolean function will it work like a while loop, statment after is where you would write your incrementor function
-int x = 0
 ```
+int x = 0
 loop x < 10, x++
     //for loop contents
 end
