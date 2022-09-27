@@ -3,26 +3,28 @@ This is a small programming language I'm working on mostly in school, its like c
 
 # planed syntax for basic functionality
 
-##general goals
+## general goals
 I dont like symbols much and want to avid them as much as posible, that means ruby/lua style end statments instead of curly braces, also no unnececary parenthesies where some languages require them and no pointless commas like in python.
 
 the language will of course also not have any semi colons for obvious reasons.
 
-##vairiables and functions
+## vairiables and functions
 vairiables and functions work like they do in c, type then name.
 
+global vairiables
 ```
-//global vairiables
 int someInt = 0
 float someFloat = 1.0
+```
 
-//function definitions
+function definitions
+```
 int main(void)
     //code here
 end
 ```
 
-##if and else
+## if and else
 basic if statment
 ```
 if a < b
@@ -41,7 +43,7 @@ else
 end
 ```
 
-##loops
+## loops
 all types of loops use the same loop keyword and only change based on the content of the loop
 
 
