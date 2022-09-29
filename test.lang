@@ -1,0 +1,6 @@
+int long long unsigned int mainfunc(int cheese, float fart)
+    float testvar
+    long int test = 56
+    print "hello world"
+    return 0
+end
